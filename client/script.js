@@ -83,7 +83,7 @@ const handleSubmit = async (e)=> {
 
   //fectch data from server
 
-  const response = await fetch('https://korex.onrender.com', {
+  const response = await fetch('https://korex-ai.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
